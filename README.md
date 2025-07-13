@@ -20,6 +20,48 @@ La volatilité	est l'amplitude des variations de prix.
 
 La capitalisation boursière	est la valeur totale de l’entreprise (nombre d’actions × prix d’une action).
 
+## Indicateurs Techniques (RSI, MACD, etc.)
+Un indicateur technique est un outil mathématique basé sur les prix passés d’un actif. Il aide à mieux anticiper les mouvements futurs. Ils sont calculés à partir des données OHLC (Open, High, Low, Close).
+### RSI – Relative Strength Index
+RSI = 100 - [100 / (1 + RS)], avec RS = Moyenne des gains sur n jours / Moyenne des pertes sur n jours
+Par défaut, n = 14 jours.
+Si RSI > 70 : l’actif est considéré comme suracheté (le marché est allé trop loin trop vite -->risque de correction)
+
+Si RSI < 30 : l’actif est considéré comme survendu (le prix est trop bas par rapport à sa vraie valeur --> possibilité de rebond)
+
+
+Par exemple pour calculer le RSI sur 5 jours:
+-Calculer les variations quotidiennes (hausse ou baisse entre les jours)
+
+-Séparer les gains et les pertes
+
+-Calculer les moyennes des gains/pertes sur 5 jours
+
+-Diviser gains/pentes pour obtenir RS
+
+-Appliquer la formule finale
+
+Soit les prix de clôture suivants sur 5 jours :
+
+| Jour | Prix de clôture | Variation | Gain | Perte |
+|------|------------------|-----------|------|--------|
+| 1    | 100              | —         | —    | —      |
+| 2    | 102              | +2        | 2    | 0      |
+| 3    | 101              | -1        | 0    | 1      |
+| 4    | 103              | +2        | 2    | 0      |
+| 5    | 104              | +1        | 1    | 0      |
+
+- Moyenne des gains = (2 + 0 + 2 + 1) / 4 = **1.25**
+- Moyenne des pertes = (0 + 1 + 0 + 0) / 4 = **0.25**
+
+On calcule :
+RS = 1.25 / 0.25 = 5
+RSI = 100 - (100 / (1 + 5)) = 100 - (100 / 6) ≈ 83.33
+
+
+
+
+
 
 
 
