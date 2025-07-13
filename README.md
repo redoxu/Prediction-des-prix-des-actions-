@@ -57,6 +57,7 @@ L’EMA réagit plus rapidement aux changements récents que la moyenne simple
 
 EMA_t=α×Prix_t+(1−α)×EMA_t−1 ou α=2/n+1
 ​
+
 La ligne signal est la EMA sur 9 jours de la ligne MACD 
 
 Quand la ligne MACD croise la ligne Signal vers le haut → c’est un signal d’achat
