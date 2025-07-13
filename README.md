@@ -65,10 +65,23 @@ Quand la ligne MACD croise la ligne Signal vers le bas → c’est un signal de 
 
 Exemple :
 
-| Jour | MACD | VariaSignaltion | Interprétation |
+| Jour | MACD | Signal | Interprétation |
 |------|------------------|-----------|------|
 | 1    | -0.5              | -0.6         | MACD < Signal, pas d’achat   |
 | 2    | +0.7            | -0.1        | MACD croise au-dessus Signal → signal d’achat    |
+
+## MEDAF -Modèle d'évaluation des actifs financiers
+Le modèle d'évaluation des actifs financiers est un modèle financier qui sert à estimer le rendement qu'on devrait attendre d’un investissement risqué.
+
+
+Rendement attendu de l’action=R_f+β×(R_m−R_f) ou R_f le taux sans risque (le rendement minimal qu’un investisseur peut obtenir sans prendre de risque ex. obligations d’État), R_m le taux attendu du marché (ex. SnP 500) , β risque de l'action par rapport au marché , il mesure combien une action bouge par rapport au marché si (β>1) plus volatile que le marché sinon moins volatile .
+
+Si une action est plus risquée (β > 1), alors les investisseurs veulent un rendement plus élevé pour accepter ce risque.
+
+Exemple Apple (AAPL) vs S&P 500: 
+Avec une régression linéaire entre le rendement quotidien (la variation en pourcentage du prix d’une action entre deux jours consécutifs) entre AAPL et S&P 500 on trouve le beta de AAPL (β=1.2) et un rendement attendu d'Apple selon le MEDAF de 11.11%
+
+Dans le projet on exploiter ça en incluant le Bêta comme une feature,ou bien utiliser le rendement attendu comme benchmark.
 
 
 
