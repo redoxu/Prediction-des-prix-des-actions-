@@ -24,24 +24,17 @@ La capitalisation boursière	est la valeur totale de l’entreprise (nombre d’
 Un indicateur technique est un outil mathématique basé sur les prix passés d’un actif. Il aide à mieux anticiper les mouvements futurs. Ils sont calculés à partir des données OHLC (Open, High, Low, Close).
 ### RSI – Relative Strength Index
 RSI = 100 - [100 / (1 + RS)], avec RS = Moyenne des gains sur n jours / Moyenne des pertes sur n jours
+
 Par défaut, n = 14 jours.
+
 Si RSI > 70 : l’actif est considéré comme suracheté (le marché est allé trop loin trop vite -->risque de correction)
 
 Si RSI < 30 : l’actif est considéré comme survendu (le prix est trop bas par rapport à sa vraie valeur --> possibilité de rebond)
 
 
 Par exemple pour calculer le RSI sur 5 jours:
--Calculer les variations quotidiennes (hausse ou baisse entre les jours)
 
--Séparer les gains et les pertes
-
--Calculer les moyennes des gains/pertes sur 5 jours
-
--Diviser gains/pentes pour obtenir RS
-
--Appliquer la formule finale
-
-Soit les prix de clôture suivants sur 5 jours :
+Soit les prix de clôture suivants sur 5 jours 
 
 | Jour | Prix de clôture | Variation | Gain | Perte |
 |------|------------------|-----------|------|--------|
@@ -57,6 +50,35 @@ Soit les prix de clôture suivants sur 5 jours :
 On calcule :
 RS = 1.25 / 0.25 = 5
 RSI = 100 - (100 / (1 + 5)) = 100 - (100 / 6) ≈ 83.33
+
+### MACD
+La MACD est simplement la différence entre deux Moyennes Mobiles Exponentielles de périodes différentes. On emploie couramment les périodes de 12 et 26 jours pour ces MME. MACD=EMA_12−EMA_26
+L’EMA réagit plus rapidement aux changements récents que la moyenne simple
+
+EMA_t=α×Prix_t+(1−α)×EMA_t−1 ou α=2/n+1
+​
+La ligne signal est la EMA sur 9 jours de la ligne MACD 
+
+Quand la ligne MACD croise la ligne Signal vers le haut → c’est un signal d’achat
+
+Quand la ligne MACD croise la ligne Signal vers le bas → c’est un signal de vente
+
+Exemple :
+
+| Jour | MACD | VariaSignaltion | Interprétation |
+|------|------------------|-----------|------|
+| 1    | -0.5              | -0.6         | MACD < Signal, pas d’achat   |
+| 2    | +0.7            | -0.1        | MACD croise au-dessus Signal → signal d’achat    |
+
+
+
+
+
+
+
+
+​
+
 
 
 
