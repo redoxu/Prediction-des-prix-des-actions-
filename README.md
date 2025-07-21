@@ -104,14 +104,14 @@ Ce modèle Applique le GBM(Mouvement Brownien Géométrique) pour calculer le pr
 
 On suppose que le prix d'une action évolue selon une formule stochastique
 dSt=μ*St*dt+σ*St*dWt
-​ou St le prix actuel ,μ le rendement moyen ,σ la volatilité ,dWt la variation infinitésimale d'un mouvement brownien(Il modélise les fluctuations aléatoires du marché).
+​ou St le prix actuel ,μ le rendement moyen (MEDAF) ,σ la volatilité ,dWt la variation infinitésimale d'un mouvement brownien(Il modélise les fluctuations aléatoires du marché).
 
 En finance, on suppose que les mouvements aléatoires du prix suivent une loi normale avec moyenne 0 et variance qui grandit dans le temps donc dWt suit une loi normale centrée de variance dt.
 
 En discret cela donne : St+1=St*exp( (μ− ​σ²/2)*Δt + σ*sqrt(Δt)*Z 
 ou Z tiré d'une loi normale et Δt la fraction du temps (ex : 1 jour = 1/252 en bourse) 
 
-En recommencant 1000 fois avec des Z différents , on obtient 1000 scénarios possibles . C’est ça, une simulation de Monte Carlo basée sur le GBM.
+En recommencant 1000 fois avec des Z différents , on obtient 1000 scénarios possibles dont on calculera la moyenne empirique .On aura donc fait une simulation de Monte Carlo basée sur le GBM.
 
 
 
