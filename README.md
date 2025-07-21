@@ -86,12 +86,33 @@ Dans le projet on exploiter ça en incluant le Bêta comme une feature,ou bien u
 
 
 
+# Méthode de Monte-Carlo
+
+La méthode de simulation de Monte-Carlo permet aussi d'introduire une approche statistique du risque dans une décision financière. Elle consiste à isoler des variables clés du projet, telles que le chiffre d'affaires ou la marge, et à leur affecter une loi de probabilités. Pour chacun de ces facteurs, un grand nombre de tirages aléatoires, suivant les lois de probabilité déterminées précédemment, est effectué, afin de trouver la probabilité d'occurrence de chacun des résultats
+
+De manière générale, le problème que l'on cherche à résoudre par les méthodes de Monte-Carlo est celui de l'estimation de l'espérance d'une variable aléatoire X.
 
 
+La méthode de Monte-Carlo la plus simple consiste à générer un échantillon de variables aléatoires indépendantes et identiquement distribuées (iid) X.
+
+Ensuite on estime l'espérance
+avec l'estimateur de la moyenne empirique.
 
 
+# Modèle de Black-Scholes
+Ce modèle Applique le GBM(Mouvement Brownien Géométrique) pour calculer le prix d’une option .
 
-​
+On suppose que le prix d'une action évolue selon une formule stochastique
+dSt=μ*St*dt+σ*St*dWt
+​ou St le prix actuel ,μ le rendement moyen ,σ la volatilité ,dWt la variation infinitésimale d'un mouvement brownien(Il modélise les fluctuations aléatoires du marché).
+
+En finance, on suppose que les mouvements aléatoires du prix suivent une loi normale avec moyenne 0 et variance qui grandit dans le temps donc dWt suit une loi normale centrée de variance dt.
+
+En discret cela donne : St+1=St*exp( (μ− ​σ²/2)*Δt + σ*sqrt(Δt)*Z 
+ou Z tiré d'une loi normale et Δt la fraction du temps (ex : 1 jour = 1/252 en bourse) 
+
+En recommencant 1000 fois avec des Z différents , on obtient 1000 scénarios possibles . C’est ça, une simulation de Monte Carlo basée sur le GBM.
+
 
 
 
