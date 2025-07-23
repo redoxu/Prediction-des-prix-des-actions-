@@ -114,6 +114,39 @@ ou Z tiré d'une loi normale et Δt la fraction du temps (ex : 1 jour = 1/252 en
 En recommencant 1000 fois avec des Z différents , on obtient 1000 scénarios possibles dont on calculera la moyenne empirique .On aura donc fait une simulation de Monte Carlo basée sur le GBM.
 
 
+# Modèles de séries temporelles classiques
+## Modèle ARIMA (AutoRegressive Integrated Moving Average)
+En finance, les prix ne sont pas stationnaires . Mais leurs rendements  sont souvent stationnaires.
+
+En différenciant les séries temporelles, il est possible de retirer les tendances qu’elles présentent pour les stationnariser.
+ → Cela permet d’appliquer ARIMA, qui suppose une série stationnaire
+
+
+Un ARIMA(p, d, q) a 3 paramètres :
+
+d	Nombre de différenciations pour rendre la série stationnaire : exemple si d=2 on fait une double differenciation Yt = (X_t-X_t-1) - (X_t-1 - X_t-2)
+
+p	Nombre de retards sur les valeurs passées (Auto-Régressif), on prédit le rendement futur en fonction des p rendements précédents : Exemple si p=2 on a Y_t = a1*Y_t-1 + a2*Y_t-2
+
+q	Nombre de retards sur les erreurs (Moyenne mobile) : Exemple avec q=1 on fait Y_t = b1 + b2*epsilon_t-1 + epsilon_t avec epsilon une serie de bruit aléatoire.
+
+
+## Modèle GARCH : Generalized Autoregressive Conditional Heteroskedasticity
+
+Le modèle GARCH est un outil statistique principalement pour modéliser et prévoir la volatilité des séries temporelles. Il est particulièrement utile car il prend en compte le fait que la volatilité des rendements varie dans le temps, ce que les modèles classiques ne font pas.
+
+Structure du modèle GARCH(p,q):
+
+On suppose une série de rendements 
+𝑟_t modélisée par : 
+r_t=μ+ϵ_t ou ϵ_t=σ_t​*z_t et z_t∼N(0,1)
+​
+Le modèle GARCH donne σ_t²=α_0 + ∑α_i*ϵ_t−i² + ∑β_j*σ_t−j² (i=1..q) (j=1..p)
+
+Le plus utilisé en pratique est GARCH(1,1)
+
+​
+
 
 
 
