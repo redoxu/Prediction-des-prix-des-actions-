@@ -116,6 +116,9 @@ En recommencant 1000 fois avec des Z différents , on obtient 1000 scénarios po
 
 # Modèles de séries temporelles classiques
 ## Modèle ARIMA (AutoRegressive Integrated Moving Average)
+
+Le modèle ARIMA permet de modéliser et de prédire les valeurs futures d'une série.
+
 En finance, les prix ne sont pas stationnaires . Mais leurs rendements  sont souvent stationnaires.
 
 En différenciant les séries temporelles, il est possible de retirer les tendances qu’elles présentent pour les stationnariser.
@@ -124,11 +127,11 @@ En différenciant les séries temporelles, il est possible de retirer les tendan
 
 Un ARIMA(p, d, q) a 3 paramètres :
 
-d	Nombre de différenciations pour rendre la série stationnaire : exemple si d=2 on fait une double differenciation Yt = (X_t-X_t-1) - (X_t-1 - X_t-2)
+-d	Nombre de différenciations pour rendre la série stationnaire : exemple si d=2 on fait une double differenciation Yt = (X_t-X_t-1) - (X_t-1 - X_t-2)
 
-p	Nombre de retards sur les valeurs passées (Auto-Régressif), on prédit le rendement futur en fonction des p rendements précédents : Exemple si p=2 on a Y_t = a1*Y_t-1 + a2*Y_t-2
+-p	Nombre de retards sur les valeurs passées (Auto-Régressif), on prédit le rendement futur en fonction des p rendements précédents : Exemple si p=2 on a Y_t = a1*Y_t-1 + a2*Y_t-2
 
-q	Nombre de retards sur les erreurs (Moyenne mobile) : Exemple avec q=1 on fait Y_t = b1 + b2*epsilon_t-1 + epsilon_t avec epsilon une serie de bruit aléatoire.
+-q	Nombre de retards sur les erreurs (Moyenne mobile) : Exemple avec q=1 on fait Y_t = b1 + b2*epsilon_t-1 + epsilon_t avec epsilon une serie de bruit aléatoire.
 
 
 ## Modèle GARCH : Generalized Autoregressive Conditional Heteroskedasticity
@@ -141,6 +144,7 @@ On suppose une série de rendements
 𝑟_t modélisée par : 
 r_t=μ+ϵ_t ou ϵ_t=σ_t​*z_t et z_t∼N(0,1)
 ​
+
 Le modèle GARCH donne σ_t²=α_0 + ∑α_i*ϵ_t−i² + ∑β_j*σ_t−j² (i=1..q) (j=1..p)
 
 Le plus utilisé en pratique est GARCH(1,1)
