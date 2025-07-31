@@ -149,6 +149,26 @@ Le modèle GARCH donne σ_t²=α_0 + ∑α_i*ϵ_t−i² + ∑β_j*σ_t−j² (i=
 
 Le plus utilisé en pratique est GARCH(1,1)
 
+
+# Théorie moderne du portefeuille
+La théorie moderne du portefeuille est une théorie financière développée par Harry Markowitz. Elle expose comment des investisseurs rationnels utilisent la diversification afin d'optimiser leur portefeuille, et quel devrait être le prix d'un actif étant donné son risque par rapport au risque moyen du marché. Cette théorie fait appel aux concepts de frontière efficiente, coefficient bêta, droite de marché des capitaux et droite de marché des titres. 
+
+Le modèle fait la double hypothèse que
+
+-les marchés d'actifs financiers sont efficients. C'est l'hypothèse d'efficience du marché selon laquelle les prix et rendements des actifs sont censés refléter, de façon objective, toutes les informations disponibles concernant ces actifs.
+
+-les investisseurs ont de l'aversion envers le risque : ils ne seront prêts à prendre plus de risques qu'en échange d'un rendement plus élevé. À l'inverse, un investisseur qui souhaite améliorer la rentabilité de son portefeuille doit accepter de prendre plus de risques. L'équilibre risque/rendement jugé optimal dépend de la tolérance au risque de chaque investisseur.
+
+Selon le modèle :
+
+le rendement d'un portefeuille est une combinaison linéaire de celui des actifs qui le composent, pondérés par leur poids w_i dans le portefeuille: E(R_p)=∑W_i*E(R_i);
+la volatilité du portefeuille est une fonction de la corrélation entre les actifs qui le composent : σ_p²=∑∑w_i*w_j*σ_i*σ_j*ρ_ij
+
+
+## Diversification
+Un investisseur peut réduire le risque de son portefeuille simplement en détenant des actifs qui ne soient pas ou peu positivement corrélés, donc en diversifiant ses placements. Cela permet d'obtenir la même espérance de rendement en diminuant la volatilité du portefeuille.
+
+
 ​
 
 
