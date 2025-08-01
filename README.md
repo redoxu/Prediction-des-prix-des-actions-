@@ -161,13 +161,14 @@ Le modèle fait la double hypothèse que
 
 Selon le modèle :
 
-le rendement d'un portefeuille est une combinaison linéaire de celui des actifs qui le composent, pondérés par leur poids w_i dans le portefeuille: E(R_p)=∑W_i*E(R_i);
-la volatilité du portefeuille est une fonction de la corrélation entre les actifs qui le composent : σ_p²=∑∑w_i*w_j*σ_i*σ_j*ρ_ij
+Le rendement d'un portefeuille est une combinaison linéaire de celui des actifs qui le composent, pondérés par leur poids w_i dans le portefeuille: E(R_p)=∑W_i*E(R_i);
+La volatilité du portefeuille est une fonction de la corrélation entre les actifs qui le composent : σ_p²=∑∑w_i*w_j*σ_i*σ_j*ρ_ij
 
 
 ## Diversification
 Un investisseur peut réduire le risque de son portefeuille simplement en détenant des actifs qui ne soient pas ou peu positivement corrélés, donc en diversifiant ses placements. Cela permet d'obtenir la même espérance de rendement en diminuant la volatilité du portefeuille.
 
+## Portefeuille optimal
 
 ​
 
