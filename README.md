@@ -161,8 +161,8 @@ Le modèle fait la double hypothèse que
 
 Selon le modèle :
 
-Le rendement d'un portefeuille est une combinaison linéaire de celui des actifs qui le composent, pondérés par leur poids w_i dans le portefeuille: E(R_p)=∑W_i*E(R_i);
-La volatilité du portefeuille est une fonction de la corrélation entre les actifs qui le composent : σ_p²=∑∑w_i*w_j*σ_i*σ_j*ρ_ij
+Le rendement d'un portefeuille est une combinaison linéaire de celui des actifs qui le composent, pondérés par leur poids w_i dans le portefeuille: E(R_p)=∑W_i*E(R_i) = wᵀ * m ;
+La volatilité du portefeuille est une fonction de la corrélation entre les actifs qui le composent : σ_p²=∑∑w_i*w_j*σ_i*σ_j*ρ_ij = wᵀ * Σ * w
 
 
 ## Diversification
@@ -170,7 +170,25 @@ Un investisseur peut réduire le risque de son portefeuille simplement en déten
 
 ## Portefeuille optimal
 
-​
+Le problème d'optimisation du portefeuille revient à minimiser une fonction qui combine le **risque** (la variance du portefeuille) et le **rendement**, pondérés par un paramètre `λ` :
+
+    Minimize: (1/2) * wᵀ * Σ * w  -  λ * mᵀ * w
+
+Sous les contraintes :
+
+    Σ w_i = 1           (tout le capital est investi)
+    w_i ≥ 0             (pas de short)
+    
+- `λ petit` → l’investisseur cherche uniquement à minimiser le risque
+- 
+- `λ` grand → il cherche un rendement plus élevé, au prix d’un risque accru
+
+
+## Exemple 
+Sur 8 actions du CAC40 on estimera le portefeuille optimal.
+
+Les actions choisies sont :
+LVMH (luxe) - TotalEnergies (énergie) - BNP Paribas (finance) -Airbus (industrie) - Sanofi (santé) - Orange (télécom) -Schneider Electric (équipement) - Dassault Systèmes (tech)
 
 
 
