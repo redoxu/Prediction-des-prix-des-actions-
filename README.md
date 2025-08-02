@@ -1,5 +1,4 @@
-# Prédiction-des-prix-des-actions-
-## Introduction à la Bourse et aux Actions
+# Introduction à la Bourse et aux Actions
 La Bourse est un marché organisé où s'échangent des actifs financiers, comme des actions (parts d'entreprises) ,des obligations (dettes d'entreprises ou d’États),des ETF (fonds d'investissement) et d'autres produits financiers (options, futures…).
 
 Une action est une part de propriété dans une entreprise cotée en Bourse. En achetant une action on peut toucher des dividendes de la part de l'entreprise ou bien revendre l’action quand son prix monte (gain en capital).
@@ -20,9 +19,9 @@ La volatilité	est l'amplitude des variations de prix.
 
 La capitalisation boursière	est la valeur totale de l’entreprise (nombre d’actions × prix d’une action).
 
-## Indicateurs Techniques (RSI, MACD, etc.)
+# Indicateurs Techniques (RSI, MACD, etc.)
 Un indicateur technique est un outil mathématique basé sur les prix passés d’un actif. Il aide à mieux anticiper les mouvements futurs. Ils sont calculés à partir des données OHLC (Open, High, Low, Close).
-### RSI – Relative Strength Index
+## RSI – Relative Strength Index
 RSI = 100 - [100 / (1 + RS)], avec RS = Moyenne des gains sur n jours / Moyenne des pertes sur n jours
 
 Par défaut, n = 14 jours.
@@ -51,7 +50,7 @@ On calcule :
 RS = 1.25 / 0.25 = 5
 RSI = 100 - (100 / (1 + 5)) = 100 - (100 / 6) ≈ 83.33
 
-### MACD
+## MACD
 La MACD est simplement la différence entre deux Moyennes Mobiles Exponentielles de périodes différentes. On emploie couramment les périodes de 12 et 26 jours pour ces MME. MACD=EMA_12−EMA_26
 L’EMA réagit plus rapidement aux changements récents que la moyenne simple
 
@@ -162,7 +161,8 @@ Le modèle fait la double hypothèse que
 Selon le modèle :
 
 Le rendement d'un portefeuille est une combinaison linéaire de celui des actifs qui le composent, pondérés par leur poids w_i dans le portefeuille: E(R_p)=∑W_i*E(R_i) = wᵀ * m ;
-La volatilité du portefeuille est une fonction de la corrélation entre les actifs qui le composent : σ_p²=∑∑w_i*w_j*σ_i*σ_j*ρ_ij = wᵀ * Σ * w
+
+La volatilité du portefeuille est une fonction de la corrélation entre les actifs qui le composent : σ_p²=∑∑w_i*w_j*σ_i*σ_j*ρ_ij = wᵀ * Σ * w avec Σ la matrice de covariance entre rendements des actifs
 
 
 ## Diversification
@@ -180,7 +180,7 @@ Sous les contraintes :
     w_i ≥ 0             (pas de short)
     
 - `λ petit` → l’investisseur cherche uniquement à minimiser le risque
-- 
+  
 - `λ` grand → il cherche un rendement plus élevé, au prix d’un risque accru
 
 
