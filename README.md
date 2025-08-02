@@ -190,10 +190,7 @@ Sur 8 actions du CAC40 on estimera le portefeuille optimal.
 Les actions choisies sont :
 LVMH (luxe) - TotalEnergies (énergie) - BNP Paribas (finance) -Airbus (industrie) - Sanofi (santé) - Orange (télécom) -Schneider Electric (équipement) - Dassault Systèmes (tech)
 
-
-
-
-
+Le code est disponible sur markowitz.py
 
 
 
