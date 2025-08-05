@@ -1,500 +1,500 @@
 --------------------------------------------------
-Portfolio 1 (Target return: 0.0007):
-AAPL : 16.85 %
-MSFT : 3.20 %
-JNJ : 43.53 %
-JPM : 0.05 %
-GOOGL : 1.82 %
-XOM : 0.05 %
-V : 13.83 %
-PG : 20.66 %
---------------------------------------------------
-Portfolio 2 (Target return: 0.0007):
-AAPL : 17.30 %
-MSFT : 3.25 %
-JNJ : 43.50 %
-JPM : 0.05 %
-GOOGL : 1.78 %
-XOM : 0.05 %
-V : 14.37 %
-PG : 19.71 %
---------------------------------------------------
-Portfolio 3 (Target return: 0.0007):
-AAPL : 17.75 %
-MSFT : 3.29 %
-JNJ : 43.46 %
-JPM : 0.05 %
-GOOGL : 1.74 %
-XOM : 0.04 %
-V : 14.91 %
-PG : 18.76 %
---------------------------------------------------
-Portfolio 4 (Target return: 0.0007):
-AAPL : 18.19 %
-MSFT : 3.35 %
-JNJ : 43.41 %
-JPM : 0.05 %
-GOOGL : 1.75 %
-XOM : 0.03 %
-V : 15.43 %
-PG : 17.80 %
---------------------------------------------------
-Portfolio 5 (Target return: 0.0007):
-AAPL : 18.58 %
-MSFT : 3.47 %
-JNJ : 43.25 %
-JPM : 0.09 %
-GOOGL : 1.91 %
-XOM : 0.05 %
-V : 15.90 %
-PG : 16.74 %
---------------------------------------------------
-Portfolio 6 (Target return: 0.0007):
-AAPL : 19.21 %
-MSFT : 3.42 %
-JNJ : 43.50 %
-JPM : 0.00 %
-GOOGL : 1.20 %
-XOM : 0.00 %
-V : 16.62 %
-PG : 16.05 %
---------------------------------------------------
-Portfolio 7 (Target return: 0.0007):
-AAPL : 19.65 %
-MSFT : 3.46 %
-JNJ : 43.45 %
-JPM : 0.00 %
+Portfolio 1 (Target return: 0.0004):
+AAPL : 3.43 %
+MSFT : 0.48 %
+JNJ : 32.79 %
+MCD : 27.10 %
 GOOGL : 1.21 %
-XOM : 0.00 %
-V : 17.15 %
-PG : 15.08 %
+DIS : 0.72 %
+V : 0.45 %
+PG : 33.81 %
 --------------------------------------------------
-Portfolio 8 (Target return: 0.0007):
-AAPL : 20.07 %
-MSFT : 3.50 %
-JNJ : 43.37 %
-JPM : 0.01 %
-GOOGL : 1.32 %
-XOM : 0.00 %
-V : 17.65 %
-PG : 14.08 %
+Portfolio 2 (Target return: 0.0004):
+AAPL : 3.44 %
+MSFT : 0.48 %
+JNJ : 32.79 %
+MCD : 27.11 %
+GOOGL : 1.21 %
+DIS : 0.72 %
+V : 0.45 %
+PG : 33.81 %
 --------------------------------------------------
-Portfolio 9 (Target return: 0.0007):
-AAPL : 20.49 %
-MSFT : 3.55 %
-JNJ : 43.28 %
-JPM : 0.02 %
-GOOGL : 1.42 %
-XOM : 0.01 %
-V : 18.16 %
-PG : 13.07 %
+Portfolio 3 (Target return: 0.0004):
+AAPL : 3.44 %
+MSFT : 0.48 %
+JNJ : 32.79 %
+MCD : 27.11 %
+GOOGL : 1.21 %
+DIS : 0.72 %
+V : 0.45 %
+PG : 33.81 %
 --------------------------------------------------
-Portfolio 10 (Target return: 0.0007):
-AAPL : 20.91 %
-MSFT : 3.61 %
-JNJ : 43.19 %
-JPM : 0.03 %
-GOOGL : 1.49 %
-XOM : 0.01 %
-V : 18.67 %
-PG : 12.08 %
+Portfolio 4 (Target return: 0.0004):
+AAPL : 3.44 %
+MSFT : 0.48 %
+JNJ : 32.79 %
+MCD : 27.11 %
+GOOGL : 1.21 %
+DIS : 0.72 %
+V : 0.45 %
+PG : 33.81 %
 --------------------------------------------------
-Portfolio 11 (Target return: 0.0007):
-AAPL : 21.37 %
-MSFT : 3.65 %
-JNJ : 43.16 %
-JPM : 0.03 %
-GOOGL : 1.44 %
-XOM : 0.01 %
-V : 19.21 %
-PG : 11.13 %
+Portfolio 5 (Target return: 0.0004):
+AAPL : 3.44 %
+MSFT : 0.48 %
+JNJ : 32.79 %
+MCD : 27.11 %
+GOOGL : 1.21 %
+DIS : 0.72 %
+V : 0.45 %
+PG : 33.81 %
 --------------------------------------------------
-Portfolio 12 (Target return: 0.0007):
-AAPL : 21.83 %
-MSFT : 3.68 %
-JNJ : 43.13 %
-JPM : 0.02 %
-GOOGL : 1.38 %
-XOM : 0.01 %
-V : 19.75 %
-PG : 10.18 %
+Portfolio 6 (Target return: 0.0004):
+AAPL : 3.44 %
+MSFT : 0.48 %
+JNJ : 32.79 %
+MCD : 27.11 %
+GOOGL : 1.21 %
+DIS : 0.72 %
+V : 0.45 %
+PG : 33.80 %
 --------------------------------------------------
-Portfolio 13 (Target return: 0.0008):
-AAPL : 22.27 %
-MSFT : 3.74 %
-JNJ : 43.07 %
-JPM : 0.03 %
-GOOGL : 1.39 %
-XOM : 0.01 %
-V : 20.28 %
-PG : 9.20 %
+Portfolio 7 (Target return: 0.0004):
+AAPL : 3.44 %
+MSFT : 0.48 %
+JNJ : 32.79 %
+MCD : 27.11 %
+GOOGL : 1.21 %
+DIS : 0.72 %
+V : 0.45 %
+PG : 33.80 %
 --------------------------------------------------
-Portfolio 14 (Target return: 0.0008):
-AAPL : 22.83 %
-MSFT : 3.83 %
-JNJ : 43.19 %
-JPM : 0.00 %
-GOOGL : 0.83 %
-XOM : 0.00 %
-V : 20.93 %
-PG : 8.39 %
+Portfolio 8 (Target return: 0.0005):
+AAPL : 3.44 %
+MSFT : 0.48 %
+JNJ : 32.79 %
+MCD : 27.11 %
+GOOGL : 1.21 %
+DIS : 0.72 %
+V : 0.45 %
+PG : 33.80 %
 --------------------------------------------------
-Portfolio 15 (Target return: 0.0008):
-AAPL : 23.26 %
-MSFT : 3.85 %
-JNJ : 43.12 %
-JPM : 0.00 %
-GOOGL : 0.90 %
-XOM : 0.00 %
-V : 21.45 %
-PG : 7.41 %
+Portfolio 9 (Target return: 0.0005):
+AAPL : 3.44 %
+MSFT : 0.48 %
+JNJ : 32.79 %
+MCD : 27.11 %
+GOOGL : 1.21 %
+DIS : 0.72 %
+V : 0.45 %
+PG : 33.80 %
 --------------------------------------------------
-Portfolio 16 (Target return: 0.0008):
-AAPL : 23.69 %
-MSFT : 3.88 %
-JNJ : 43.05 %
-JPM : 0.01 %
-GOOGL : 0.98 %
-XOM : 0.00 %
-V : 21.96 %
-PG : 6.43 %
+Portfolio 10 (Target return: 0.0005):
+AAPL : 3.44 %
+MSFT : 0.48 %
+JNJ : 32.79 %
+MCD : 27.11 %
+GOOGL : 1.21 %
+DIS : 0.72 %
+V : 0.45 %
+PG : 33.80 %
 --------------------------------------------------
-Portfolio 17 (Target return: 0.0008):
-AAPL : 24.14 %
-MSFT : 3.91 %
-JNJ : 43.00 %
-JPM : 0.01 %
+Portfolio 11 (Target return: 0.0005):
+AAPL : 3.45 %
+MSFT : 0.48 %
+JNJ : 32.80 %
+MCD : 27.12 %
+GOOGL : 1.21 %
+DIS : 0.72 %
+V : 0.45 %
+PG : 33.79 %
+--------------------------------------------------
+Portfolio 12 (Target return: 0.0005):
+AAPL : 3.46 %
+MSFT : 0.48 %
+JNJ : 32.80 %
+MCD : 27.12 %
+GOOGL : 1.21 %
+DIS : 0.72 %
+V : 0.45 %
+PG : 33.77 %
+--------------------------------------------------
+Portfolio 13 (Target return: 0.0005):
+AAPL : 3.50 %
+MSFT : 0.48 %
+JNJ : 32.80 %
+MCD : 27.15 %
+GOOGL : 1.21 %
+DIS : 0.72 %
+V : 0.46 %
+PG : 33.69 %
+--------------------------------------------------
+Portfolio 14 (Target return: 0.0005):
+AAPL : 3.77 %
+MSFT : 0.65 %
+JNJ : 32.53 %
+MCD : 27.17 %
+GOOGL : 1.35 %
+DIS : 0.94 %
+V : 0.71 %
+PG : 32.88 %
+--------------------------------------------------
+Portfolio 15 (Target return: 0.0006):
+AAPL : 5.53 %
+MSFT : 0.21 %
+JNJ : 33.07 %
+MCD : 28.62 %
+GOOGL : 0.96 %
+DIS : 0.65 %
+V : 0.91 %
+PG : 30.05 %
+--------------------------------------------------
+Portfolio 16 (Target return: 0.0006):
+AAPL : 6.43 %
+MSFT : 0.21 %
+JNJ : 32.83 %
+MCD : 29.16 %
+GOOGL : 0.86 %
+DIS : 0.77 %
+V : 1.79 %
+PG : 27.94 %
+--------------------------------------------------
+Portfolio 17 (Target return: 0.0006):
+AAPL : 7.27 %
+MSFT : 0.33 %
+JNJ : 32.42 %
+MCD : 29.61 %
+GOOGL : 0.88 %
+DIS : 1.05 %
+V : 2.80 %
+PG : 25.64 %
+--------------------------------------------------
+Portfolio 18 (Target return: 0.0006):
+AAPL : 8.06 %
+MSFT : 0.55 %
+JNJ : 31.93 %
+MCD : 30.00 %
 GOOGL : 1.00 %
-XOM : 0.00 %
-V : 22.49 %
-PG : 5.46 %
+DIS : 1.42 %
+V : 3.77 %
+PG : 23.29 %
 --------------------------------------------------
-Portfolio 18 (Target return: 0.0008):
-AAPL : 24.57 %
-MSFT : 3.96 %
-JNJ : 42.93 %
-JPM : 0.02 %
-GOOGL : 1.05 %
-XOM : 0.01 %
-V : 23.01 %
-PG : 4.47 %
+Portfolio 19 (Target return: 0.0006):
+AAPL : 9.10 %
+MSFT : 0.19 %
+JNJ : 31.89 %
+MCD : 30.69 %
+GOOGL : 0.54 %
+DIS : 1.23 %
+V : 4.95 %
+PG : 21.41 %
 --------------------------------------------------
-Portfolio 19 (Target return: 0.0008):
-AAPL : 25.01 %
-MSFT : 3.99 %
-JNJ : 42.87 %
-JPM : 0.02 %
-GOOGL : 1.07 %
-XOM : 0.01 %
-V : 23.53 %
-PG : 3.49 %
+Portfolio 20 (Target return: 0.0006):
+AAPL : 9.90 %
+MSFT : 0.36 %
+JNJ : 31.44 %
+MCD : 31.09 %
+GOOGL : 0.64 %
+DIS : 1.53 %
+V : 5.90 %
+PG : 19.13 %
 --------------------------------------------------
-Portfolio 20 (Target return: 0.0008):
-AAPL : 25.48 %
-MSFT : 3.99 %
-JNJ : 42.74 %
-JPM : 0.02 %
-GOOGL : 1.03 %
-XOM : 0.02 %
-V : 24.10 %
-PG : 2.62 %
+Portfolio 21 (Target return: 0.0006):
+AAPL : 10.85 %
+MSFT : 0.22 %
+JNJ : 31.22 %
+MCD : 31.67 %
+GOOGL : 0.40 %
+DIS : 1.61 %
+V : 7.01 %
+PG : 17.02 %
 --------------------------------------------------
-Portfolio 21 (Target return: 0.0008):
-AAPL : 26.00 %
-MSFT : 3.95 %
-JNJ : 42.24 %
-JPM : 0.03 %
-GOOGL : 1.05 %
-XOM : 0.03 %
-V : 24.72 %
-PG : 1.98 %
+Portfolio 22 (Target return: 0.0007):
+AAPL : 11.70 %
+MSFT : 0.26 %
+JNJ : 30.86 %
+MCD : 32.14 %
+GOOGL : 0.40 %
+DIS : 1.81 %
+V : 8.03 %
+PG : 14.80 %
 --------------------------------------------------
-Portfolio 22 (Target return: 0.0008):
-AAPL : 26.57 %
-MSFT : 3.85 %
-JNJ : 41.40 %
-JPM : 0.05 %
-GOOGL : 1.03 %
-XOM : 0.05 %
-V : 25.42 %
-PG : 1.63 %
+Portfolio 23 (Target return: 0.0007):
+AAPL : 12.45 %
+MSFT : 0.54 %
+JNJ : 30.35 %
+MCD : 32.50 %
+GOOGL : 0.61 %
+DIS : 2.16 %
+V : 8.94 %
+PG : 12.46 %
 --------------------------------------------------
-Portfolio 23 (Target return: 0.0008):
-AAPL : 27.17 %
-MSFT : 3.73 %
-JNJ : 40.39 %
-JPM : 0.05 %
-GOOGL : 1.02 %
-XOM : 0.07 %
-V : 26.15 %
-PG : 1.43 %
+Portfolio 24 (Target return: 0.0007):
+AAPL : 13.35 %
+MSFT : 0.63 %
+JNJ : 29.64 %
+MCD : 32.83 %
+GOOGL : 0.63 %
+DIS : 2.34 %
+V : 10.04 %
+PG : 10.54 %
 --------------------------------------------------
-Portfolio 24 (Target return: 0.0008):
-AAPL : 27.65 %
-MSFT : 4.07 %
-JNJ : 41.03 %
-JPM : 0.00 %
-GOOGL : 0.28 %
-XOM : 0.00 %
-V : 26.70 %
-PG : 0.26 %
+Portfolio 25 (Target return: 0.0007):
+AAPL : 14.26 %
+MSFT : 0.40 %
+JNJ : 29.76 %
+MCD : 33.55 %
+GOOGL : 0.36 %
+DIS : 2.46 %
+V : 11.07 %
+PG : 8.14 %
 --------------------------------------------------
-Portfolio 25 (Target return: 0.0008):
-AAPL : 28.27 %
-MSFT : 3.95 %
-JNJ : 39.96 %
-JPM : 0.00 %
-GOOGL : 0.23 %
-XOM : 0.00 %
-V : 27.45 %
-PG : 0.13 %
+Portfolio 26 (Target return: 0.0007):
+AAPL : 15.12 %
+MSFT : 0.41 %
+JNJ : 29.42 %
+MCD : 34.04 %
+GOOGL : 0.33 %
+DIS : 2.65 %
+V : 12.10 %
+PG : 5.94 %
 --------------------------------------------------
-Portfolio 26 (Target return: 0.0008):
-AAPL : 28.93 %
-MSFT : 3.65 %
-JNJ : 37.68 %
-JPM : 0.03 %
-GOOGL : 0.70 %
-XOM : 0.03 %
-V : 28.31 %
-PG : 0.66 %
+Portfolio 27 (Target return: 0.0007):
+AAPL : 15.92 %
+MSFT : 0.65 %
+JNJ : 28.83 %
+MCD : 34.38 %
+GOOGL : 0.52 %
+DIS : 2.86 %
+V : 13.08 %
+PG : 3.76 %
 --------------------------------------------------
-Portfolio 27 (Target return: 0.0008):
-AAPL : 29.53 %
-MSFT : 3.68 %
-JNJ : 37.60 %
-JPM : 0.00 %
-GOOGL : 0.14 %
-XOM : 0.00 %
-V : 29.01 %
-PG : 0.04 %
+Portfolio 28 (Target return: 0.0007):
+AAPL : 16.84 %
+MSFT : 0.87 %
+JNJ : 27.64 %
+MCD : 34.52 %
+GOOGL : 0.68 %
+DIS : 3.08 %
+V : 14.22 %
+PG : 2.14 %
 --------------------------------------------------
-Portfolio 28 (Target return: 0.0009):
-AAPL : 30.17 %
-MSFT : 3.53 %
-JNJ : 36.40 %
-JPM : 0.00 %
-GOOGL : 0.09 %
-XOM : 0.00 %
-V : 29.79 %
+Portfolio 29 (Target return: 0.0008):
+AAPL : 18.01 %
+MSFT : 0.34 %
+JNJ : 27.15 %
+MCD : 35.11 %
+GOOGL : 0.19 %
+DIS : 3.08 %
+V : 15.56 %
+PG : 0.56 %
+--------------------------------------------------
+Portfolio 30 (Target return: 0.0008):
+AAPL : 19.26 %
+MSFT : 0.54 %
+JNJ : 24.48 %
+MCD : 34.78 %
+GOOGL : 0.33 %
+DIS : 3.07 %
+V : 17.14 %
+PG : 0.40 %
+--------------------------------------------------
+Portfolio 31 (Target return: 0.0008):
+AAPL : 20.61 %
+MSFT : 0.20 %
+JNJ : 22.48 %
+MCD : 34.81 %
+GOOGL : 0.08 %
+DIS : 3.01 %
+V : 18.78 %
 PG : 0.02 %
 --------------------------------------------------
-Portfolio 29 (Target return: 0.0009):
-AAPL : 30.83 %
-MSFT : 3.11 %
-JNJ : 34.43 %
-JPM : 0.04 %
-GOOGL : 0.56 %
-XOM : 0.04 %
-V : 30.62 %
-PG : 0.37 %
+Portfolio 32 (Target return: 0.0008):
+AAPL : 21.92 %
+MSFT : 0.30 %
+JNJ : 19.73 %
+MCD : 34.48 %
+GOOGL : 0.13 %
+DIS : 2.97 %
+V : 20.44 %
+PG : 0.03 %
 --------------------------------------------------
-Portfolio 30 (Target return: 0.0009):
-AAPL : 31.41 %
-MSFT : 3.04 %
-JNJ : 33.27 %
-JPM : 0.03 %
-GOOGL : 0.61 %
-XOM : 0.02 %
-V : 31.35 %
-PG : 0.26 %
---------------------------------------------------
-Portfolio 31 (Target return: 0.0009):
-AAPL : 31.95 %
-MSFT : 3.23 %
-JNJ : 31.77 %
-JPM : 0.03 %
-GOOGL : 0.73 %
-XOM : 0.02 %
-V : 32.06 %
-PG : 0.21 %
---------------------------------------------------
-Portfolio 32 (Target return: 0.0009):
-AAPL : 32.69 %
-MSFT : 2.89 %
-JNJ : 31.34 %
-JPM : 0.00 %
+Portfolio 33 (Target return: 0.0008):
+AAPL : 23.24 %
+MSFT : 0.36 %
+JNJ : 16.99 %
+MCD : 34.16 %
 GOOGL : 0.16 %
-XOM : 0.00 %
-V : 32.91 %
-PG : 0.01 %
+DIS : 2.96 %
+V : 22.10 %
+PG : 0.03 %
 --------------------------------------------------
-Portfolio 33 (Target return: 0.0009):
-AAPL : 33.32 %
-MSFT : 2.66 %
-JNJ : 29.92 %
-JPM : 0.01 %
-GOOGL : 0.31 %
-XOM : 0.00 %
-V : 33.69 %
-PG : 0.08 %
+Portfolio 34 (Target return: 0.0008):
+AAPL : 24.66 %
+MSFT : 0.03 %
+JNJ : 14.63 %
+MCD : 34.07 %
+GOOGL : 0.01 %
+DIS : 2.75 %
+V : 23.84 %
+PG : 0.00 %
 --------------------------------------------------
-Portfolio 34 (Target return: 0.0009):
-AAPL : 33.96 %
-MSFT : 2.56 %
-JNJ : 28.65 %
-JPM : 0.01 %
-GOOGL : 0.23 %
-XOM : 0.01 %
-V : 34.48 %
-PG : 0.10 %
---------------------------------------------------
-Portfolio 35 (Target return: 0.0009):
-AAPL : 34.48 %
-MSFT : 3.09 %
-JNJ : 27.18 %
-JPM : 0.00 %
-GOOGL : 0.06 %
-XOM : 0.00 %
-V : 35.18 %
-PG : 0.01 %
+Portfolio 35 (Target return: 0.0008):
+AAPL : 26.00 %
+MSFT : 0.05 %
+JNJ : 11.97 %
+MCD : 33.79 %
+GOOGL : 0.01 %
+DIS : 2.65 %
+V : 25.52 %
+PG : 0.00 %
 --------------------------------------------------
 Portfolio 36 (Target return: 0.0009):
-AAPL : 35.12 %
-MSFT : 2.94 %
-JNJ : 25.91 %
-JPM : 0.00 %
-GOOGL : 0.06 %
-XOM : 0.00 %
-V : 35.96 %
-PG : 0.01 %
+AAPL : 27.35 %
+MSFT : 0.02 %
+JNJ : 9.33 %
+MCD : 33.53 %
+GOOGL : 0.01 %
+DIS : 2.55 %
+V : 27.21 %
+PG : 0.00 %
 --------------------------------------------------
 Portfolio 37 (Target return: 0.0009):
-AAPL : 35.76 %
-MSFT : 2.73 %
-JNJ : 24.71 %
-JPM : 0.00 %
-GOOGL : 0.04 %
-XOM : 0.00 %
-V : 36.75 %
-PG : 0.00 %
+AAPL : 28.57 %
+MSFT : 0.37 %
+JNJ : 6.24 %
+MCD : 33.00 %
+GOOGL : 0.15 %
+DIS : 2.90 %
+V : 28.76 %
+PG : 0.02 %
 --------------------------------------------------
 Portfolio 38 (Target return: 0.0009):
-AAPL : 36.40 %
-MSFT : 2.57 %
-JNJ : 23.46 %
-JPM : 0.00 %
-GOOGL : 0.04 %
-XOM : 0.00 %
-V : 37.53 %
-PG : 0.00 %
+AAPL : 30.00 %
+MSFT : 0.15 %
+JNJ : 3.86 %
+MCD : 32.90 %
+GOOGL : 0.06 %
+DIS : 2.48 %
+V : 30.54 %
+PG : 0.02 %
 --------------------------------------------------
 Portfolio 39 (Target return: 0.0009):
-AAPL : 37.03 %
-MSFT : 2.41 %
-JNJ : 22.20 %
-JPM : 0.00 %
-GOOGL : 0.03 %
-XOM : 0.00 %
-V : 38.32 %
-PG : 0.00 %
+AAPL : 31.44 %
+MSFT : 0.13 %
+JNJ : 1.64 %
+MCD : 32.34 %
+GOOGL : 0.05 %
+DIS : 2.06 %
+V : 32.32 %
+PG : 0.02 %
 --------------------------------------------------
 Portfolio 40 (Target return: 0.0009):
-AAPL : 37.67 %
-MSFT : 2.25 %
-JNJ : 20.95 %
-JPM : 0.00 %
-GOOGL : 0.03 %
-XOM : 0.00 %
-V : 39.10 %
-PG : 0.00 %
+AAPL : 33.16 %
+MSFT : 0.10 %
+JNJ : 0.75 %
+MCD : 30.40 %
+GOOGL : 0.07 %
+DIS : 1.15 %
+V : 34.31 %
+PG : 0.06 %
 --------------------------------------------------
 Portfolio 41 (Target return: 0.0009):
-AAPL : 38.30 %
-MSFT : 2.10 %
-JNJ : 19.69 %
-JPM : 0.00 %
+AAPL : 34.96 %
+MSFT : 0.03 %
+JNJ : 0.36 %
+MCD : 28.10 %
 GOOGL : 0.03 %
-XOM : 0.00 %
-V : 39.88 %
-PG : 0.00 %
+DIS : 0.13 %
+V : 36.37 %
+PG : 0.04 %
 --------------------------------------------------
-Portfolio 42 (Target return: 0.0009):
-AAPL : 38.93 %
-MSFT : 1.98 %
-JNJ : 18.40 %
-JPM : 0.00 %
-GOOGL : 0.03 %
-XOM : 0.00 %
-V : 40.66 %
-PG : 0.00 %
---------------------------------------------------
-Portfolio 43 (Target return: 0.0010):
-AAPL : 39.58 %
-MSFT : 1.74 %
-JNJ : 17.22 %
-JPM : 0.00 %
-GOOGL : 0.01 %
-XOM : 0.00 %
-V : 41.45 %
-PG : 0.00 %
---------------------------------------------------
-Portfolio 44 (Target return: 0.0010):
-AAPL : 40.01 %
-MSFT : 2.65 %
-JNJ : 15.18 %
-JPM : 0.01 %
-GOOGL : 0.05 %
-XOM : 0.00 %
-V : 42.09 %
+Portfolio 42 (Target return: 0.0010):
+AAPL : 36.75 %
+MSFT : 0.01 %
+JNJ : 0.15 %
+MCD : 24.73 %
+GOOGL : 0.02 %
+DIS : 0.02 %
+V : 38.30 %
 PG : 0.01 %
 --------------------------------------------------
-Portfolio 45 (Target return: 0.0010):
-AAPL : 40.87 %
-MSFT : 1.30 %
-JNJ : 14.78 %
-JPM : 0.00 %
+Portfolio 43 (Target return: 0.0010):
+AAPL : 38.58 %
+MSFT : 0.01 %
+JNJ : 0.07 %
+MCD : 21.07 %
 GOOGL : 0.01 %
-XOM : 0.00 %
-V : 43.03 %
+DIS : 0.01 %
+V : 40.25 %
+PG : 0.01 %
+--------------------------------------------------
+Portfolio 44 (Target return: 0.0010):
+AAPL : 40.42 %
+MSFT : 0.00 %
+JNJ : 0.03 %
+MCD : 17.35 %
+GOOGL : 0.00 %
+DIS : 0.00 %
+V : 42.20 %
+PG : 0.00 %
+--------------------------------------------------
+Portfolio 45 (Target return: 0.0010):
+AAPL : 42.26 %
+MSFT : 0.00 %
+JNJ : 0.01 %
+MCD : 13.56 %
+GOOGL : 0.00 %
+DIS : 0.02 %
+V : 44.14 %
 PG : 0.00 %
 --------------------------------------------------
 Portfolio 46 (Target return: 0.0010):
-AAPL : 41.57 %
-MSFT : 0.78 %
-JNJ : 13.76 %
-JPM : 0.00 %
+AAPL : 44.10 %
+MSFT : 0.00 %
+JNJ : 0.00 %
+MCD : 9.79 %
 GOOGL : 0.00 %
-XOM : 0.00 %
-V : 43.87 %
-PG : 0.01 %
---------------------------------------------------
-Portfolio 47 (Target return: 0.0010):
-AAPL : 42.13 %
-MSFT : 1.01 %
-JNJ : 12.24 %
-JPM : 0.00 %
-GOOGL : 0.01 %
-XOM : 0.00 %
-V : 44.60 %
-PG : 0.01 %
---------------------------------------------------
-Portfolio 48 (Target return: 0.0010):
-AAPL : 42.71 %
-MSFT : 1.13 %
-JNJ : 10.79 %
-JPM : 0.00 %
-GOOGL : 0.02 %
-XOM : 0.00 %
-V : 45.34 %
-PG : 0.01 %
---------------------------------------------------
-Portfolio 49 (Target return: 0.0010):
-AAPL : 43.30 %
-MSFT : 1.18 %
-JNJ : 9.38 %
-JPM : 0.00 %
-GOOGL : 0.03 %
-XOM : 0.00 %
-V : 46.09 %
+DIS : 0.00 %
+V : 46.10 %
 PG : 0.00 %
 --------------------------------------------------
-Portfolio 50 (Target return: 0.0010):
-AAPL : 43.91 %
-MSFT : 1.18 %
-JNJ : 8.01 %
-JPM : 0.01 %
-GOOGL : 0.03 %
-XOM : 0.00 %
-V : 46.85 %
+Portfolio 47 (Target return: 0.0010):
+AAPL : 45.95 %
+MSFT : 0.00 %
+JNJ : 0.00 %
+MCD : 6.00 %
+GOOGL : 0.00 %
+DIS : 0.00 %
+V : 48.05 %
+PG : 0.00 %
+--------------------------------------------------
+Portfolio 48 (Target return: 0.0010):
+AAPL : 47.79 %
+MSFT : 0.00 %
+JNJ : 0.00 %
+MCD : 2.20 %
+GOOGL : 0.00 %
+DIS : 0.00 %
+V : 50.01 %
+PG : 0.00 %
+--------------------------------------------------
+Portfolio 49 (Target return: 0.0011):
+AAPL : 64.00 %
+MSFT : 0.00 %
+JNJ : 0.00 %
+MCD : 0.00 %
+GOOGL : 0.00 %
+DIS : 0.00 %
+V : 36.00 %
+PG : 0.00 %
+--------------------------------------------------
+Portfolio 50 (Target return: 0.0011):
+AAPL : 100.00 %
+MSFT : 0.00 %
+JNJ : 0.00 %
+MCD : 0.00 %
+GOOGL : 0.00 %
+DIS : 0.00 %
+V : 0.00 %
 PG : 0.00 %
