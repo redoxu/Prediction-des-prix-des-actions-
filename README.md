@@ -185,12 +185,13 @@ Sous les contraintes :
 
 
 ## Exemple 
-Sur 8 actions du CAC40 on estimera le portefeuille optimal.
+Sur 8 actions du S&P 100, nous estimerons le portefeuille optimal.
 
 Les actions choisies sont :
-LVMH (luxe) - TotalEnergies (énergie) - BNP Paribas (finance) -Airbus (industrie) - Sanofi (santé) - Orange (télécom) -Schneider Electric (équipement) - Dassault Systèmes (tech)
+Apple (technologie), Microsoft (technologie ), Johnson & Johnson (santé), McDonald's (restauration), Google (technologie), Disney (divertissement), Visa (services financiers), et Procter & Gamble (biens de consommation).
 
-Le code est disponible sur markowitz.py
+
+Le code est disponible sur markowitz_portfolio.ipynb , et les poids optimaux selon le rendement espéré sur optimal_weights.txt.
 
 
 
